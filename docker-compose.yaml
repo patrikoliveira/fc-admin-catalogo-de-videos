@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    container_name: fc-admin-catalogo-de-videos-app
+    volumes:
+      - .:/home/node/app
